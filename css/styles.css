@@ -3,3 +3,60 @@
 nav {
     font-family: 'Source Code Pro', monospace;
 }
+
+
+/* Hero Section Styles */
+
+.hero {
+    text-align: center;
+    color: #fff;
+    background-image: url("../images/alexandru-acea-TMkrN9QZERw-unsplash-resized.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+header.hero .intro-text-box {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+header.hero .intro-text-box .intro-heading h2 {
+    font-size: 23px;
+    line-height: 28px;
+    font-family: 'Source Code Pro', monospace;
+    color: #ffcccf;
+}
+
+
+
+@media (min-width: 768px) {
+    header.hero .intro-text-box {
+        padding-top: 350px;
+        padding-bottom: 275px;
+    }
+    header.hero .intro-text-box .intro-heading h2 {
+        font-size: 72px;
+        line-height: 78px;
+        margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+/* .hero h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 80px;
+    width: 1000px;
+    padding: 23% 0 0 5%;
+    margin: 0;
+} */
+
+/* .hero h2 span {
+    color: #fa0075;
+} */
