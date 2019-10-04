@@ -1,5 +1,9 @@
 /* Base Styles */
 
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
 nav {
     font-family: 'Source Code Pro', monospace;
 }
@@ -23,10 +27,10 @@ header.hero .intro-text-box {
 }
 
 header.hero .intro-text-box .intro-heading h2 {
-    font-size: 23px;
-    line-height: 28px;
+    font-size: 36px;
+    line-height: 40px;
     font-family: 'Source Code Pro', monospace;
-    color: #ffcccf;
+    color: #f5f8ff;
 }
 
 
@@ -44,19 +48,48 @@ header.hero .intro-text-box .intro-heading h2 {
 }
 
 
+/*  Portfolio Section Styles */
+
+#work * {
+    z-index: 2;
+}
+
+.page-section h2.section-heading {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 75px;
+}
+
+#work .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+@media (min-width: 767px) {
+    #work .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+#work .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 260px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* About Section Styles */
 
 
-
-/* .hero h2 {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 80px;
-    width: 1000px;
-    padding: 23% 0 0 5%;
-    margin: 0;
-} */
-
-/* .hero h2 span {
-    color: #fa0075;
-} */
+/* Contact Section Styles */
