@@ -91,5 +91,8 @@ img {
 
 /* About Section Styles */
 
+.lead {
+    font-size: 1.25rem;
+}
 
 /* Contact Section Styles */
