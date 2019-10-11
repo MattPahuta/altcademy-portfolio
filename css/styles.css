@@ -8,6 +8,11 @@ nav {
     font-family: 'Source Code Pro', monospace;
 }
 
+.page-section h2.section-heading {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /* Hero Section Styles */
 
@@ -52,12 +57,14 @@ header.hero .intro-text-box .intro-heading h2 {
 
 #work * {
     z-index: 2;
+
 }
 
-.page-section h2.section-heading {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 75px;
+
+
+.portfolio-grid {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #work .portfolio-item {
@@ -94,5 +101,27 @@ img {
 .lead {
     font-size: 1.25rem;
 }
+
+.services-hero {
+    color: #fff;
+    background-image: url("../images/caspar-camille-rubin-oI6zrBj3nKw-unsplash-resized.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.section-heading {
+
+}
+
+@media (min-width: 768px) {
+
+    .services-hero {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+}
+
 
 /* Contact Section Styles */
