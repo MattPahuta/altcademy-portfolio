@@ -1,7 +1,8 @@
 /* Base Styles */
 
 body {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Code Pro', monospace; 
+    background-color: rgb(88, 82, 82);
 }
 
 nav {
