@@ -171,3 +171,13 @@ img {
     background-color: #08d9d6;
     border-color: #08d9d6;
 }
+
+/* Footer Section */
+
+.page-section#footer {
+    text-align: center;
+}
+
+/* .footer-row {
+    padding-top: 50px;
+} */
