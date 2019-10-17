@@ -2,24 +2,36 @@
 
 body {
     font-family: 'Source Code Pro', monospace; 
-    background-color: rgb(120, 131, 151);
+    background-color: #eaeaea;
 }
 
-nav {
+nav * {
     font-family: 'Source Code Pro', monospace;
+    color: #08d9d6;
 }
 
 .page-section h2.section-heading {
-    font-size: 40px;
+    color: #ff2e63;
+    font-size: 46px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.page-section h3.section-subheading {
+    color: #252a34;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 50px;
+    text-transform: lowercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Hero Section Styles */
 
 .hero {
     text-align: center;
-    color: #fff;
+    color: #eaeaea;
     background-image: url("../images/alexandru-acea-TMkrN9QZERw-unsplash-resized.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -36,9 +48,8 @@ header.hero .intro-text-box .intro-heading h2 {
     font-size: 36px;
     line-height: 40px;
     font-family: 'Source Code Pro', monospace;
-    color: #f5f8ff;
+    /* color: #f5f8ff; */
 }
-
 
 
 @media (min-width: 768px) {
@@ -47,8 +58,8 @@ header.hero .intro-text-box .intro-heading h2 {
         padding-bottom: 275px;
     }
     header.hero .intro-text-box .intro-heading h2 {
-        font-size: 72px;
-        line-height: 78px;
+        font-size: 80px;
+        line-height: 82px;
         margin-bottom: 25px;
     }
 }
@@ -58,7 +69,6 @@ header.hero .intro-text-box .intro-heading h2 {
 
 #work * {
     z-index: 2;
-
 }
 
 .portfolio-grid {
@@ -85,31 +95,43 @@ header.hero .intro-text-box .intro-heading h2 {
     cursor: pointer;
 }
 
-
-
-
 img {
     vertical-align: middle;
     border-style: none;
 }
 
-/* About Section Styles */
+/* Services Section Styles */
 
 .lead {
     font-size: 1.25rem;
 }
 
 .services-hero {
-    color: #fff;
+    color: #eaeaea;
     background-image: url("../images/caspar-camille-rubin-oI6zrBj3nKw-unsplash-resized.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    padding-bottom: 75px;
 }
 
-.section-heading {
+.services-subheading {
+    color: #eaeaea;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 50px;
+    text-transform: lowercase;
+    font-family: 'Montserrat', sans-serif;
+}
 
+.service-summary {
+    color: #eaeaea;
+}
+
+.service-icon-color {
+    color: #ff2e63;
 }
 
 @media (min-width: 768px) {
@@ -122,3 +144,30 @@ img {
 
 
 /* Contact Section Styles */
+
+#contact .form-group {
+    margin-bottom: 25px;
+}
+
+#contact .form-group input.form-control {
+    height: auto;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    padding: 20px 20px;
+}
+
+#contact .form-group textarea.form-control {
+    height: 248px;
+}
+
+.btn-primary {
+    background-color: #ff2e63;
+    border-color: #ff2e63;
+}
+
+.btn-primary:hover {
+    background-color: #08d9d6;
+    border-color: #08d9d6;
+}
