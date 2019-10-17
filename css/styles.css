@@ -102,10 +102,6 @@ img {
 
 /* Services Section Styles */
 
-.lead {
-    font-size: 1.25rem;
-}
-
 .services-hero {
     color: #eaeaea;
     background-image: url("../images/caspar-camille-rubin-oI6zrBj3nKw-unsplash-resized.jpg");
@@ -145,6 +141,10 @@ img {
 
 /* Contact Section Styles */
 
+.form-row {
+    padding-bottom: 50px;
+}
+
 #contact .form-group {
     margin-bottom: 25px;
 }
@@ -163,8 +163,11 @@ img {
 }
 
 .btn-primary {
+    font-size: 21px;
+    font-weight: 600;
     background-color: #ff2e63;
     border-color: #ff2e63;
+    transition: all .3s;
 }
 
 .btn-primary:hover {
@@ -178,6 +181,55 @@ img {
     text-align: center;
 }
 
-/* .footer-row {
-    padding-top: 50px;
-} */
+.footer-grid {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-grid-item {
+    margin-bottom: 40px;
+}
+
+.footer-grid-item p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 27px;
+}
+
+.footer-grid-item p a {
+    color: #252a34;
+    transition: all .3s;
+}
+
+.footer-grid-item p a:hover {
+    color: #08d9d6;
+    text-decoration: none;
+}
+
+ul.social-buttons {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    transition: all .3s;
+    color: #eaeaea;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #252a34;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+    background-color: #08d9d6;
+}
+
+.meetup-tagline {
+    font-style: italic;
+}
