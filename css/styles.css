@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Source Code Pro', monospace; 
-    background-color: rgb(88, 82, 82);
+    background-color: rgb(120, 131, 151);
 }
 
 nav {
@@ -61,8 +61,6 @@ header.hero .intro-text-box .intro-heading h2 {
 
 }
 
-
-
 .portfolio-grid {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -87,10 +85,8 @@ header.hero .intro-text-box .intro-heading h2 {
     cursor: pointer;
 }
 
-.img-fluid {
-    max-width: 100%;
-    height: 260px;
-}
+
+
 
 img {
     vertical-align: middle;
