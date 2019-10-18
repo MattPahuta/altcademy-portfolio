@@ -2,28 +2,54 @@
 
 body {
     font-family: 'Source Code Pro', monospace; 
-    background-color: #eaeaea;
+    background-color: #eeeeee;
 }
 
 nav * {
     font-family: 'Source Code Pro', monospace;
-    color: #08d9d6;
+    color: #d72323;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.navbar-brand:hover {
+    color: #d72323;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #eeeeee;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+}
+
+#pageNav {
+    background-color: #303841;
+    opacity: .9;
 }
 
 .page-section h2.section-heading {
-    color: #ff2e63;
+    color: #3a4750;
     font-size: 46px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .page-section h3.section-subheading {
-    color: #252a34;
+    color: #3a4750;
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 50px;
-    text-transform: lowercase;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -31,8 +57,9 @@ nav * {
 
 .hero {
     text-align: center;
-    color: #eaeaea;
-    background-image: url("../images/alexandru-acea-TMkrN9QZERw-unsplash-resized.jpg");
+    color: #eeeeee;
+    background-color: #303841;
+    background-image: url("../images/caspar-camille-rubin-oI6zrBj3nKw-unsplash-resized.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -48,13 +75,16 @@ header.hero .intro-text-box .intro-heading h2 {
     font-size: 36px;
     line-height: 40px;
     font-family: 'Source Code Pro', monospace;
-    /* color: #f5f8ff; */
+}
+
+.intro-heading span {
+    color: #d72323;
 }
 
 
 @media (min-width: 768px) {
     header.hero .intro-text-box {
-        padding-top: 350px;
+        padding-top: 300px;
         padding-bottom: 275px;
     }
     header.hero .intro-text-box .intro-heading h2 {
@@ -103,8 +133,8 @@ img {
 /* Services Section Styles */
 
 .services-hero {
-    color: #eaeaea;
-    background-image: url("../images/caspar-camille-rubin-oI6zrBj3nKw-unsplash-resized.jpg");
+    color: #eeeeee;
+    background-image: url("../images/kelly-sikkema-VX0bsbyBxpM-unsplash-resized.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -112,8 +142,12 @@ img {
     padding-bottom: 75px;
 }
 
+#services-heading {
+    color: #eeeeee;
+}
+
 .services-subheading {
-    color: #eaeaea;
+    color: #eeeeee;
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
@@ -123,11 +157,11 @@ img {
 }
 
 .service-summary {
-    color: #eaeaea;
+    color: #eeeeee;
 }
 
 .service-icon-color {
-    color: #ff2e63;
+    color: #d72323;
 }
 
 @media (min-width: 768px) {
@@ -165,14 +199,14 @@ img {
 .btn-primary {
     font-size: 21px;
     font-weight: 600;
-    background-color: #ff2e63;
-    border-color: #ff2e63;
+    background-color: #3a4750;
+    border-color: #3a4750;
     transition: all .3s;
 }
 
 .btn-primary:hover {
-    background-color: #08d9d6;
-    border-color: #08d9d6;
+    background-color: #d72323;
+    border-color: #d72323;
 }
 
 /* Footer Section */
@@ -197,12 +231,12 @@ img {
 }
 
 .footer-grid-item p a {
-    color: #252a34;
+    color: #3a4750;
     transition: all .3s;
 }
 
 .footer-grid-item p a:hover {
-    color: #08d9d6;
+    color: #d72323;
     text-decoration: none;
 }
 
@@ -218,16 +252,14 @@ ul.social-buttons li a {
     width: 50px;
     height: 50px;
     transition: all .3s;
-    color: #eaeaea;
+    color: #eeeeee;
     border-radius: 100%;
     outline: 0;
-    background-color: #252a34;
+    background-color: #3a4750;
 }
 
-ul.social-buttons li a:active,
-ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #08d9d6;
+    background-color: #d72323;
 }
 
 .meetup-tagline {
