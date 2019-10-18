@@ -10,26 +10,26 @@ nav * {
     color: #d72323;
 }
 
-.navbar-brand {
-    font-size: 24px;
-    font-weight: 400;
-}
-
 .navbar-brand:hover {
     color: #d72323;
-}
-
-.nav-link {
-    font-size: 20px;
-    font-weight: 400;
 }
 
 .nav-link:hover {
     color: #eeeeee;
 }
 
-.navbar-toggler {
-    font-size: 1rem;
+@media (min-width: 768px) {
+    .navbar-brand {
+        font-size: 24px;
+        font-weight: 400;
+    }    
+    .nav-link {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .navbar-toggler {
+        font-size: 1rem;
+    }
 }
 
 #pageNav {
